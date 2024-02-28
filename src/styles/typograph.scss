@@ -1,0 +1,85 @@
+@mixin oswald($font-family: var(--font-primary)){
+    font-family: $font-family;
+}
+
+@mixin weight($font-weight: 500){
+    font-weight: $font-weight;
+}
+
+@mixin colorBlack($color: var(--color-black)){
+    color: $color;
+}
+
+.title1{
+    font-size: var(--title-size-1);
+    @include colorBlack;
+    @include weight;
+    @include oswald;
+
+    //lançar responsividade aqui no tamanho
+}
+
+.title2{
+    font-size: var(--title-size-2);
+    @include colorBlack;
+    @include weight;
+    @include oswald;
+
+    //lançar responsividade aqui no tamanho
+}
+
+.title3{
+    font-size: var(--title-size-3);
+    @include colorBlack;
+    @include weight;
+    @include oswald;
+}
+
+.title4{
+    font-size: var(--title-size-4);
+    @include colorBlack;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+}
+
+.price{
+    @include colorBlack;
+    @include oswald;
+    @include weight(400);
+    
+    &.small{
+        font-size: 1.125rem;
+        line-height: 1.625rem;
+
+        &.bold{
+            @include weight(700)
+        }
+    }
+
+    &.big{
+        font-size: 2rem;
+        line-height: 2.9375rem;
+
+        &.bold{
+            @include weight(700)
+        }
+    }
+    
+}
+
+.menu{
+    @include colorBlack;
+    @include weight;
+    @include oswald;
+    font-size: 1.25rem;
+    line-height: 1.8525rem;
+}
+
+.paragraph{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem; 
+    line-height: 2rem;
+    @include colorBlack;
+
+}
