@@ -1,0 +1,27 @@
+ul{
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 16.9375rem;
+    height: 32.125rem;
+    margin-left: 1.375rem;
+
+    figure{
+        img{
+            width: 16.9375rem;
+            height: 19.5625rem;
+            border-radius: 1.25rem;
+        }
+    }
+
+    h3{
+        margin-top: 2rem;
+    }
+
+    P{ 
+        margin-top: 1rem;
+    }    
+}
