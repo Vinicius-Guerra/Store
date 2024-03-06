@@ -1,8 +1,9 @@
-import {imageAddCart} from "../../../assets/add_shopping_cart.svg";
+import imageAddCart from "../../../assets/add_cart.svg";
+import style from "./style.module.scss";
 
 export const CardKnowMore = () => {
     return (
-        <div>
+        <div className={style.container}>
             <button>
                 <img src={imageAddCart} alt="Botão de adicionar ao carrinho" />
             </button>

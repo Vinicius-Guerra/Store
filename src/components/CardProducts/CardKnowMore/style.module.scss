@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    margin-top: 1rem;
+
+    button{
+        width: 3.75rem;
+        height: 3.75rem;
+        background-color: var(--color-black);
+        cursor: pointer;
+    }
+
+    p{
+        font-family: "Roboto", sans-serif;
+        font-size: .875rem;
+        font-weight: 500;
+        line-height: 1rem;
+        letter-spacing: 12%;
+
+        text-transform: uppercase;
+        margin-left: 2rem;
+        text-align: center;
+
+        &:hover{
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+}
