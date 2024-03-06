@@ -1,0 +1,14 @@
+.container {
+    width: 100vw;
+    height: 4rem;
+    background-color: var(--color-white);
+    margin-top: 2rem;
+
+    display: flex;
+    justify-content: center;
+
+    img{
+        width: 10.375rem;
+        height: 1.5rem;
+    }
+}
